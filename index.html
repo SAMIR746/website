@@ -37,6 +37,7 @@
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tech-stack">Tech Stack</a></li>
                 <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                 <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
                 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -97,6 +98,70 @@
             <h3>URI Online Judge</h3>
             <p>Competitive programming.</p>
             <button class="btn btn-outline-info btn-sm">View Profile</button>
+        </div>
+    </div>
+</section>
+
+<!-- ================= TECH STACK ================= -->
+<section class="section dark" id="tech-stack">
+    <h2 data-aos="fade-up">Tech Stack Highlights</h2>
+    <p class="section-lead" data-aos="fade-up">
+        A modern front-end toolkit focused on performance, motion, and deployment.
+    </p>
+
+    <div class="cards tech-cards">
+        <div class="card tech-card wow fadeInUp" data-aos="flip-up">
+            <i data-lucide="layers"></i>
+            <h3>JavaScript Frameworks</h3>
+            <ul>
+                <li>React</li>
+                <li>React Router 7.12.0</li>
+            </ul>
+        </div>
+        <div class="card tech-card wow fadeInUp" data-aos="flip-up">
+            <i data-lucide="sparkles"></i>
+            <h3>Motion & Animation</h3>
+            <ul>
+                <li>GSAP</li>
+                <li>Framer Motion</li>
+            </ul>
+        </div>
+        <div class="card tech-card wow fadeInUp" data-aos="flip-up">
+            <i data-lucide="palette"></i>
+            <h3>UI Framework</h3>
+            <ul>
+                <li>Tailwind CSS</li>
+            </ul>
+        </div>
+        <div class="card tech-card wow fadeInUp" data-aos="flip-up">
+            <i data-lucide="cubes"></i>
+            <h3>JavaScript Graphics</h3>
+            <ul>
+                <li>Three.js 182</li>
+            </ul>
+        </div>
+        <div class="card tech-card wow fadeInUp" data-aos="flip-up">
+            <i data-lucide="rocket"></i>
+            <h3>Tooling</h3>
+            <ul>
+                <li>Vite</li>
+                <li>Lucide Icon Set</li>
+            </ul>
+        </div>
+        <div class="card tech-card wow fadeInUp" data-aos="flip-up">
+            <i data-lucide="shield-check"></i>
+            <h3>Security</h3>
+            <ul>
+                <li>HSTS</li>
+            </ul>
+        </div>
+        <div class="card tech-card wow fadeInUp" data-aos="flip-up">
+            <i data-lucide="cloud"></i>
+            <h3>Hosting & Delivery</h3>
+            <ul>
+                <li>Netlify (PaaS)</li>
+                <li>Netlify CDN</li>
+            </ul>
         </div>
     </div>
 </section>
@@ -183,9 +248,13 @@
 <!-- AOS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
+<!-- Lucide -->
+<script src="https://unpkg.com/lucide@latest"></script>
+
 <script>
     new WOW().init();
     AOS.init({ duration: 1000, once: true });
+    lucide.createIcons();
 </script>
 
 </body>
