@@ -34,6 +34,35 @@ body {
     z-index: 1;
 }
 
+.hero-actions {
+    margin-top: 20px;
+    display: grid;
+    gap: 16px;
+    justify-items: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(8px);
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 1.4rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: #00e5ff;
+    transform: translateY(-2px);
+}
+
 .profile-pic {
     width: 150px;
     height: 150px;
@@ -137,19 +166,82 @@ body {
 }
 
 /* TIMELINE */
-.timeline-item {
-    background: #00e5ff;
-    color: #000;
-    padding: 20px;
-    border-radius: 10px;
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.education-card {
+    text-align: left;
+    background: #1a1a1a;
+    border-radius: 18px;
+    padding: 28px;
+    border: 1px solid rgba(0, 229, 255, 0.2);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.education-badge {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: rgba(0, 229, 255, 0.15);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.education-badge svg {
+    width: 26px;
+    height: 26px;
+    color: #00e5ff;
+}
+
+.education-meta {
+    font-weight: 600;
+    color: #00e5ff;
+    margin-bottom: 8px;
+}
+
+.education-detail {
+    margin-bottom: 0;
+    opacity: 0.85;
 }
 
 /* ABOUT */
-.about {
-    max-width: 700px;
-    margin: auto;
-    font-size: 1.1rem;
+.about-card {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: left;
+    background: #1b1b1b;
+    padding: 32px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    font-size: 1.05rem;
     line-height: 1.8;
+}
+
+.about-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: grid;
+    gap: 10px;
+}
+
+.about-highlights li {
+    padding: 10px 14px;
+    border-radius: 12px;
+    background: rgba(0, 229, 255, 0.12);
+}
+
+.about-footer {
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #00e5ff;
 }
 
 /* FOOTER */

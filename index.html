@@ -58,13 +58,29 @@
         </h1>
 
         <p class="animate__animated animate__fadeInUp">
-            Job Seeker | Freelancer | Developer
+            Job Seeker | Freelancer | Front-End Developer
         </p>
 
-        <a href="assets/cv/resume.pdf" download
-           class="btn btn-info btn-lg mt-3 animate__animated animate__pulse animate__infinite">
-            <i class="fa fa-download"></i> Download CV
-        </a>
+        <div class="hero-actions">
+            <a href="assets/cv/resume.pdf" download
+               class="btn btn-info btn-lg mt-3 animate__animated animate__pulse animate__infinite">
+                <i class="fa fa-download"></i> Download CV
+            </a>
+            <div class="social-links" aria-label="Social links">
+                <a href="https://wa.me/0000000000" aria-label="WhatsApp" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://github.com/" aria-label="GitHub" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
     </div>
 </header>
 
@@ -114,8 +130,16 @@
             <i data-lucide="layers"></i>
             <h3>JavaScript Frameworks</h3>
             <ul>
-                <li>React</li>
+                <li>ReactJS</li>
                 <li>React Router 7.12.0</li>
+            </ul>
+        </div>
+        <div class="card tech-card wow fadeInUp" data-aos="flip-up">
+            <i data-lucide="server-cog"></i>
+            <h3>Backend & Runtime</h3>
+            <ul>
+                <li>NodeJS</li>
+                <li>REST APIs</li>
             </ul>
         </div>
         <div class="card tech-card wow fadeInUp" data-aos="flip-up">
@@ -123,14 +147,25 @@
             <h3>Motion & Animation</h3>
             <ul>
                 <li>GSAP</li>
+                <li>AOS Animation</li>
                 <li>Framer Motion</li>
             </ul>
         </div>
         <div class="card tech-card wow fadeInUp" data-aos="flip-up">
             <i data-lucide="palette"></i>
-            <h3>UI Framework</h3>
+            <h3>UI Frameworks</h3>
             <ul>
                 <li>Tailwind CSS</li>
+                <li>Bootstrap 5</li>
+            </ul>
+        </div>
+        <div class="card tech-card wow fadeInUp" data-aos="flip-up">
+            <i data-lucide="type"></i>
+            <h3>Font Scripts & Icons</h3>
+            <ul>
+                <li>Google Fonts</li>
+                <li>Lucide Icons</li>
+                <li>Font Awesome</li>
             </ul>
         </div>
         <div class="card tech-card wow fadeInUp" data-aos="flip-up">
@@ -138,21 +173,23 @@
             <h3>JavaScript Graphics</h3>
             <ul>
                 <li>Three.js 182</li>
+                <li>Canvas API</li>
             </ul>
         </div>
         <div class="card tech-card wow fadeInUp" data-aos="flip-up">
-            <i data-lucide="rocket"></i>
-            <h3>Tooling</h3>
+            <i data-lucide="blocks"></i>
+            <h3>JavaScript Libraries</h3>
             <ul>
-                <li>Vite</li>
-                <li>Lucide Icon Set</li>
+                <li>Swiper</li>
+                <li>Lodash</li>
             </ul>
         </div>
         <div class="card tech-card wow fadeInUp" data-aos="flip-up">
             <i data-lucide="shield-check"></i>
             <h3>Security</h3>
             <ul>
-                <li>HSTS</li>
+                <li>Security Headers</li>
+                <li>OWASP Basics</li>
             </ul>
         </div>
         <div class="card tech-card wow fadeInUp" data-aos="flip-up">
@@ -169,44 +206,34 @@
 <!-- ================= EDUCATION ================= -->
 <section class="section dark" id="education">
     <h2 data-aos="fade-up">Education</h2>
-    <div class="timeline-item wow fadeInLeft" data-aos="fade-right">
-        <h3>B.Sc in Computer Science & Engineering</h3>
-        <p>Running Student</p>
-    </div>
-<!-- </section>
-    <section class="section dark" id="education">
-    <h2 data-aos="fade-up">Education</h2>
-    <div class="timeline-item wow fadeInLeft" data-aos="fade-right">
-        <h3>B.Sc in Computer Science & Engineering</h3>
-        <p>Running Student</p>
-    </div>
-</section>
-    <section class="section dark" id="education">
-    <h2 data-aos="fade-up">Education</h2>
-    <div class="timeline-item wow fadeInLeft" data-aos="fade-right">
-        <h3>B.Sc in Computer Science & Engineering</h3>
-        <p>Running Student</p>
-    </div>
-</section> -->
-    
-    <section class="section dark" id="education">
-    <h2 data-aos="fade-up">Higher Secondary School Cirtificate</h2>
-
-    <div class="timeline-item wow fadeInLeft" data-aos="fade-right">
-        <h3>HSC</h3>
-        <p>Batch since 2016 -2018</p>
-        <p>Group: Science</p>
-        <p>CGPA: 2.83</p>
-    </div>
-</section>
-    <section class="section dark" id="education">
-    <h2 data-aos="fade-up">Secondary School Cirtificate</h2>
-    </div>
-        <div class="timeline-item wow fadeInLeft" data-aos="fade-right">
-        <h3>SSC</h3>
-        <p>Batch since 2014 -2016</p>
-        <p>Group: Science</p>
-        <p>CGPA: 5.00</p>
+    <p class="section-lead" data-aos="fade-up">
+        A focused academic path with a strong base in science and engineering.
+    </p>
+    <div class="education-grid">
+        <article class="education-card wow fadeInUp" data-aos="fade-up">
+            <div class="education-badge">
+                <i data-lucide="graduation-cap"></i>
+            </div>
+            <h3>B.Sc in Computer Science & Engineering</h3>
+            <p class="education-meta">Running Student</p>
+            <p class="education-detail">Core focus on programming fundamentals, web technologies, and software design.</p>
+        </article>
+        <article class="education-card wow fadeInUp" data-aos="fade-up" data-aos-delay="100">
+            <div class="education-badge">
+                <i data-lucide="book-open"></i>
+            </div>
+            <h3>Higher Secondary School Certificate (HSC)</h3>
+            <p class="education-meta">Science • 2016 - 2018</p>
+            <p class="education-detail">CGPA: 2.83 with emphasis on physics, chemistry, and mathematics.</p>
+        </article>
+        <article class="education-card wow fadeInUp" data-aos="fade-up" data-aos-delay="200">
+            <div class="education-badge">
+                <i data-lucide="school"></i>
+            </div>
+            <h3>Secondary School Certificate (SSC)</h3>
+            <p class="education-meta">Science • 2014 - 2016</p>
+            <p class="education-detail">CGPA: 5.00 with consistent academic performance.</p>
+        </article>
     </div>
 </section>
 
@@ -230,9 +257,21 @@
 <!-- ================= ABOUT ================= -->
 <section class="section dark" id="about">
     <h2 data-aos="fade-up">About Me</h2>
-    <p class="about wow fadeInUp">
-    I am a dedicated professional with a strong focus on delivering high-quality results through thoughtful strategy, creativity, and continuous learning. I enjoy turning complex ideas into clear, practical solutions that create real value. With experience across diverse projects, I bring a balanced approach that combines technical skill, problem-solving, and attention to detail. I believe in collaboration, clear communication, and staying adaptable in an ever-evolving digital landscape. My goal is to consistently improve, take on meaningful challenges, and contribute work that I am genuinely proud of. Whether working independently or as part of a team, I am committed to reliability, growth, and delivering outcomes that exceed expectations.
-    </p>
+    <div class="about-card wow fadeInUp" data-aos="fade-up">
+        <p>
+            I am a passionate CSE student and front-end developer who loves crafting clean, modern interfaces that
+            feel fast and intuitive. I focus on design systems, animation, and performance to deliver reliable,
+            polished user experiences.
+        </p>
+        <ul class="about-highlights">
+            <li>Detail-oriented developer focused on UI/UX and accessibility.</li>
+            <li>Comfortable with React, Tailwind, and modern JavaScript tooling.</li>
+            <li>Collaborative, adaptive, and excited about continuous learning.</li>
+        </ul>
+        <p class="about-footer">
+            I aim to take on meaningful projects that challenge me and let me grow as a professional.
+        </p>
+    </div>
 </section>
 
 <footer class="footer wow fadeInUp">
@@ -248,6 +287,9 @@
 <!-- AOS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
 <!-- Lucide -->
 <script src="https://unpkg.com/lucide@latest"></script>
 
@@ -255,6 +297,16 @@
     new WOW().init();
     AOS.init({ duration: 1000, once: true });
     lucide.createIcons();
+
+    gsap.from(".hero-content h1", { y: 30, opacity: 0, duration: 1 });
+    gsap.from(".hero-content p", { y: 20, opacity: 0, duration: 1, delay: 0.2 });
+    gsap.from(".social-links a", {
+        y: 10,
+        opacity: 0,
+        duration: 0.6,
+        stagger: 0.1,
+        delay: 0.4
+    });
 </script>
 
 </body>
