@@ -268,4 +268,13 @@ html {
     margin-top: 10px;
 }
 
+.contact-cards {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.contact-card p {
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
 
